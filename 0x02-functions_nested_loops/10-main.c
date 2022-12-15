@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+{
+	int n;
+
+	n = add(89, 9);
+	printf("%d", n);
+	return (0);
+}
