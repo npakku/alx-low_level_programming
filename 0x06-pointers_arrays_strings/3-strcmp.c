@@ -8,7 +8,7 @@
  * Return: Always 0 (success)
  */
 
-int _strcmp(const char *s1, const char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
@@ -25,7 +25,7 @@ int _strcmp(const char *s1, const char *s2)
 	{
 		return (-15);
 	}
-	else
+	else if (s1[i] > s2[i])
 	{
 		return (15);
 	}
