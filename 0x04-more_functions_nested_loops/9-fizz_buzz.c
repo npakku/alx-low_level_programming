@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * fizz_buzz - prints numbers 
+ * main - check the code 
  *
  * Return: Always 0 (success)
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -31,4 +31,5 @@ void fizz_buzz(void)
 		}
 		printf(" ");
 	}
+	return (0);
 }
