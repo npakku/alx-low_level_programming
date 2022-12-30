@@ -20,7 +20,7 @@ char *leet(char *s)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if (*s == le[i] || *s == s[i] - 32)
+			if (*s == le[i] || *s == *s - 32)
 			{
 				*s = re[i] + '0';
 			}
