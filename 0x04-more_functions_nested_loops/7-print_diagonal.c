@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_diagonal
+ * print_diagonal - prints a diagonal line
  * @n: length of diagonal to print
  *
  * Return: Always 0 (success)
