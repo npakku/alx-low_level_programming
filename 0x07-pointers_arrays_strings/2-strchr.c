@@ -7,7 +7,7 @@
  * @c: the character to locate
  *
  * Return: Always 0 (success)
-i */
+ */
 
 char *_strchr(char *s, char c)
 {
