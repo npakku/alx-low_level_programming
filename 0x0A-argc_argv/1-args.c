@@ -2,6 +2,8 @@
 
 /**
  * main - check the code
+ * @argc: the argument count
+ * @argv: the argument vector
  *
  * Return: Always 0
  */
