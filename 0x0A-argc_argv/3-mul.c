@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int result;
-	
+
 	argc = argc;
 	if (argv[1] == NULL || argv[2] == NULL)
 	{
