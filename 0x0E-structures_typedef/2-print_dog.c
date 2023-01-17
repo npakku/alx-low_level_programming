@@ -13,7 +13,7 @@ void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	{
-		_putchar(' ');
+		_putchar('\0');
 	}
 	if (d != NULL)
 	{
