@@ -33,7 +33,7 @@ void print_dog(struct dog *d)
 	}
 	else
 	{
-		printf(" ");
+		printf("/x2b[1C\n");
 	}
 }
 
