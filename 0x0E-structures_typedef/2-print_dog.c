@@ -11,6 +11,10 @@
 
 void print_dog(struct dog *d)
 {
+	if (d == NULL)
+	{
+		_putchar(' ');
+	}
 	if (d != NULL)
 	{
 		if (d->name != NULL)
@@ -30,10 +34,6 @@ void print_dog(struct dog *d)
 		{
 			printf("Owner: (nill)\n");
 		}
-	}
-	else
-	{
-		printf("/x2b[1C\n");
 	}
 }
 
