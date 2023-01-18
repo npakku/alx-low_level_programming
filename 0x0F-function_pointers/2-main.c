@@ -10,7 +10,7 @@
 
 int is_98(int elem)
 {
-	return (elem == 98);
+	return (98 == elem);
 }
 
 /**
